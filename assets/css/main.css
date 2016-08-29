@@ -2625,6 +2625,10 @@
 			border-top: 0;
 		}
 
+		.resume {
+			border: 0;
+		}
+
 /* One */
 
 	#one:before {
