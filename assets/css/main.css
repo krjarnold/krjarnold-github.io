@@ -2080,7 +2080,7 @@
 				position: relative;
 				vertical-align: top;
 				width: 33%;
-				font-size: 1.5em;
+				font-size: 1.4em;
 			}
 
 				ul.feature-icons li:before {
@@ -2455,6 +2455,21 @@
 				margin-bottom: 0;
 			}
 
+			.features article .image .portfolio{
+				display: inline-block;
+				padding-right: 2.5em;
+				vertical-align: middle;
+				width: 75%;
+			}
+
+			.features article .image .portfoliotwo{
+				display: inline-block;
+				padding-right: 2.5em;
+				padding-top: 2.5em;
+				vertical-align: middle;
+				width: 100%;
+			}
+
 /* Header */
 
 	#header {
@@ -2471,6 +2486,9 @@
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 		background: #4acaa8;
+		/*background: blue;*/
+		background-image: url("../../images/poisson-disc-opa.png");
+		/*opacity: 0.5;*/
 		color: #d1f1e9;
 		height: 100%;
 		overflow-y: auto;
@@ -2495,6 +2513,7 @@
 
 		#header a {
 			color: #d1f1e9;
+			border: 0;
 		}
 
 			#header a:hover {
@@ -2559,7 +2578,7 @@
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #5ccfb0;
+					/*border-top: solid 2px #5ccfb0;*/
 					display: block;
 					padding: 0;
 				}
@@ -2609,13 +2628,14 @@
 /* One */
 
 	#one:before {
-		background-image: url("../../images/Poisson-Disc.png");
+		/*background-image: url("../../images/Poisson-Disc.png");*/
+		background-image: url("../../images/coffee_cups.jpg");
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: cover;
 		content: '';
 		display: block;
-		height: 15em;
+		height: 25em;
 		width: 100%;
 	}
 
@@ -2917,6 +2937,8 @@
 
 			.image.left {
 				margin: 0 1.5em 1em 0;
+				/*height: 100%;
+				width: 100%;*/
 			}
 
 			.image.right {
