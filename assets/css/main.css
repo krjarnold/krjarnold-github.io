@@ -2457,28 +2457,18 @@
 
 			.features article .image .portfolio{
 				display: inline-block;
-				/*padding-right: 2.5em;*/
 				vertical-align: middle;
 				width: 100%;
 			}
 
 			.features article .image .portfoliotwo{
 				display: inline-block;
-				/*padding-right: 2.5em;*/
 				padding-top: 2.5em;
 				vertical-align: middle;
 				width: 100%;
 			}
 
-			/*.features article .image .portfoliothree{
-				display: inline-block;
-				padding-right: 2.5em;
-				padding-top: 2.5em;
-				vertical-align: middle;
-				width: 50px;
-			}*/
-
-/* Header */
+		
 
 	#header {
 		display: -moz-flex;
