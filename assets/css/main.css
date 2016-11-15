@@ -2539,8 +2539,8 @@
 
 			#header > header p {
 				color: #d1f1e9;
-				font-size: 1em;
-				font-style: italic;
+				font-size: 1.3em;
+				/*font-style: italic;*/
 				margin: 1em 0 0 0;
 			}
 
